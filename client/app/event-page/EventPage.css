@@ -1,0 +1,17 @@
+.event-page-cover{
+    background: url('../../public/images/event-page-header.png');
+    @apply bg-cover bg-center;
+}
+
+ .event-info-tabs .tab-trigger-wrapper{
+    @apply bg-white border-b rounded-none border-b-[#DEE1E7] gap-x-10 w-full flex justify-start;
+}
+
+.event-info-tabs .tab-trigger-item{
+    @apply pb-2 font-semibold text-[#555] focus:text-theme-blue-varient-1 focus:font-bold relative;
+}
+
+.event-info-tabs .tab-trigger-item:focus::after{
+    @apply absolute -bottom-1 left-0 right-0 w-full h-[2px] bg-theme-blue-varient-1;
+    content: '';
+}

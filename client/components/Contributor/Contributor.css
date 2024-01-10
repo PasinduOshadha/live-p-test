@@ -1,0 +1,13 @@
+.contributor-card {
+    @apply rounded bg-white text-center flex flex-col items-center justify-center xl:min-w-[230px] 2xl:min-w-[250px] min-h-44 max-w-[calc(25%-10px)] py-[3%] px-2;
+    /* width: calc(w_-_1/4_- 10px); */
+
+}
+
+.contributor-name {
+    display: -webkit-box;
+    width: 178px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    @apply text-theme-blue overflow-hidden mb-2;
+}
